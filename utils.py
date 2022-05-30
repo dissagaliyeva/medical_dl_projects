@@ -6,8 +6,7 @@ import numpy as np
 from keras import backend as K
 from keras.preprocessing import image
 
-from tensorflow import keras
-from keras.preprocessing.image import load_img
+from tensorflow.keras.preprocessing.image import load_img
 from sklearn.metrics import roc_auc_score, roc_curve
 from tensorflow.compat.v1.logging import INFO, set_verbosity
 
